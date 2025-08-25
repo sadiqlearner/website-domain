@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            background: #f2f2f2;
+            
+        }
+        .nav{
+            width: 100px;
+            height: 80;
+            background: #000033;
+        }
+        ul{
+            list-style: none;
+            padding: o;
+            position: absolute;
+            margin: 0;
+            background: #330003 ;
+        }
+        ul li{
+            float: left;
+            margin-top: 20px;
+        }
+        ul li a{
+            width: 220px;
+            color: white;
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            font-weight: bold;
+            font-family: century;
+            font-size: 20px;
+        }
+        a:hover{
+            background: greenyellow;
+        }
+        ul li ul{
+            background: #330003;
+        }
+        ul li ul li{
+            float: none;
+        }
+        ul li ul{
+            display: none;
+        }
+        ul li:hover ul {
+            display:block;
+        }
+        form{
+            text-align: center;
+            margin-left: 50px;
+            margin-right: 50px;
+            border-radius: 30px;
+            border: solid;
+
+        }
+        h3{
+            background-color: #330003;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            text-decoration: wavy;
+        }
+        .mo{
+            text-decoration: none;
+        }
+        input{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        button{
+            background-color: #330003;
+            color: white;
+            text-align: center;
+            border: solid;
+            border-radius: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <ul>
+           <li><a href="Home.html">Home</a></li> 
+           <li><a href="Service.html">Services</a></li> 
+           <li><a href="">Register/Apply</a>
+            <ul><li><a href="Registerst.html">Apply as a Student</a></li>
+                <li><a href="Registertea.html">Apply as a Teacher</a></li>
+            </ul>
+        </li> 
+        <li><a href="About.html">About </a>
+           <li><a href="Contact.html">Contact</a></li> 
+        </ul>
+        
+    </div>
+    <br><br><br>
+    <form action="">
+        <br><br><br><br>
+        <h3>Welcome to Madarasatul Ummatul Islamiyya <br>Login Page</h3>
+        <br><br>
+        <input type="text" name="full name" placeholder="Enter your full name">
+        <br><br><br>
+        <input type="text" name="pswwd" placeholder="Enter your Password">
+        <br><br>
+        <button>Login</button>
+        <br><br> Don't have an account? <a href="sign Up.html" class="mo">Click here to create account</a>
+        <br><br>
+    </form>
+</body>
+</html>

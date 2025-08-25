@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     .nav{
+            width: 100px;
+            height: 80;
+            background: #000033;
+        }
+        ul{
+            list-style: none;
+            padding: o;
+            position: absolute;
+            margin: 0;
+            background: #330003 ;
+        }
+        ul li{
+            float: left;
+            margin-top: 20px;
+        }
+        ul li a{
+            width: 220px;
+            color: white;
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            font-weight: bold;
+            font-family: century;
+            font-size: 20px;
+        }
+        a:hover{
+            background: greenyellow;
+        }
+        ul li ul{
+            background: #330003;
+        }
+        ul li ul li{
+            float: none;
+        }
+        ul li ul{
+            display: none;
+        }
+        ul li:hover ul {
+            display:block;
+        }
+        form{
+            text-align: center;
+            margin-left: 250px;
+            margin-right: 250px;
+            border-radius: 30px;
+            border: solid;
+
+        }
+        h3{
+            background-color: #330003;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            text-decoration: wavy;
+        }
+        .mo{
+            text-decoration: none;
+        }
+        input{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        button{
+            background-color: #330003;
+            color: white;
+            text-align: center;
+            border: solid;
+            border-radius: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <br><br>
+    <div id="nav">
+        <ul>
+           <li><a href="Home.html">Home</a></li> 
+           <li><a href="Service.html">Services</a></li> 
+           <li><a href="">Register/Apply</a>
+            <ul><li><a href="Registerst.html">Apply as a Student</a></li>
+                <li><a href="Registertea.html">Apply as a Teacher</a></li>
+            </ul>
+        </li> 
+        <li><a href="About.html">About Us</a>
+           <li><a href="Contact.html">Contact</a></li> 
+        </ul>
+        
+    </div>
+    <br><br><br>
+    <form action="">
+        <br><br>
+        <h3>Sign Up/ Create an account </h3>
+        <br><br> 
+        Upload a photo &nbsp; <br>
+         <input type="file" name="file" placeholder="Upload Your passport">
+         <br>
+        <br><br>
+        <input type="text" name="Fname" placeholder="Enter Your Firstname" required>
+        <br><br>
+        <input type="text" name="Fname" placeholder="Enter Your Lastname" required>
+        <br><br>
+        <input type="text" name="Fname" placeholder="Other Names">
+        <br><br>
+        <input type="date" placeholder="Date of Birth">
+        <br>
+        <input type="radio" name="rad1">Male
+        <input type="radio" name="rad1">Female
+        <br><br>
+        <input type="text" name="phone no" placeholder="Enter Phone Number">
+        <br><br>
+        <input type="text" name="address" placeholder="Enter Address" size="70px">
+        <br><br>
+        <input type="text" placeholder="Qualification">
+        <br><br>
+        Upload Qualification &nbsp; <br>
+         <input type="file" name="file" placeholder="Upload Your passport">
+        <br>
+        <select>
+            <option value="choose section to be taking">choose section</option>
+            <option value="Asuba">Asuba</option>
+            <option value="Yamma">Yamma</option>
+            <option value="Harda">Harda</option>
+            <option value="Matan Aure">Matan aure</option>
+	    <option value="Duka Banagarorin">Duka Banagarorin</option>
+        </select>
+        <br><br>
+        <button>Sign Up</button>
+    </form>
+</body>
+</html>
